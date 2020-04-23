@@ -4,9 +4,9 @@ My first code using Go. Converting Postman JSON file to APIInput.swift. As this 
 ## How to use
 Make sure you have installed Go on your computer.  
 ### **\# go run main.go**
-Postman file path: /path/to/postman/file.json
-Path to save the file: /path/to/save
-Base struct name: (optional)
+Postman file path: /path/to/postman/file.json. 
+Path to save the file: /path/to/save. 
+Base struct name: (optional). 
 *File saved to: /path/to/save/APIInput.swift*
 
 ## API Input Format
@@ -29,6 +29,6 @@ public  struct  APIInput  {
 		public var method: String {
 			return "POST"
 		}
-   }
+	}
 }
 ```
