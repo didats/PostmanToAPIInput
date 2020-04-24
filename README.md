@@ -2,11 +2,22 @@
 My first code using Go. Converting Postman JSON file to APIInput.swift. As this is my first Go codes, so do not expect a good codes.
 
 ## How to use
-Make sure you have installed Go on your computer.  
-### **\# go run main.go**
-Postman file path: /path/to/postman/file.json. 
-Path to save the file: /path/to/save. 
-Base struct name: (optional). 
+The easiest one is using the build: 
+    
+**\# ./postmantoswift-executable**   
+    
+Postman file path: /path/to/postman/file.json  
+Path to save the file: /path/to/save  
+Base struct name (default APIInputType):  
+*File saved to: /path/to/save/APIInput.swift*
+
+The second one is execute the from the source code directly. You may need to install Go on your computer.
+
+**\# go run main.go exporter.go postman.go**    
+    
+Postman file path: /path/to/postman/file.json  
+Path to save the file: /path/to/save  
+Base struct name: (optional)  
 *File saved to: /path/to/save/APIInput.swift*
 
 ## API Input Format
