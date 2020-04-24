@@ -1,5 +1,6 @@
 # PostmanToAPIInput
-My first code using Go. Converting Postman JSON file to APIInput.swift. As this is my first Go codes, so do not expect a good codes.
+Convert Postman JSON file to Swift codes APIInput file.  
+*This is my first experience coding with Go. So bear with the code.*
 
 ## How to use
 The easiest one is using the build: 
