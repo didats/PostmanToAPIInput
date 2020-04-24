@@ -1,5 +1,6 @@
 package main
 
+// Postman A struct for Postman Json file
 type Postman struct {
 	ID           string        `json:"id"`
 	Name         string        `json:"name"`
